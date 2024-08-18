@@ -16,7 +16,7 @@ GestureEcho is a real-time advanced solution designed to bridge communication ga
 - **Backend**: Node.js, Express.js
 - **Machine Learning**: Python, TensorFlow, Keras
 - **Database**: MongoDB
-- **Deployment**: Docker, Heroku/Netlify
+- **Deployment**: Vercel
 - **Version Control**: Git, GitHub
 
 ## Installation
@@ -31,25 +31,25 @@ GestureEcho is a real-time advanced solution designed to bridge communication ga
    npm install
 
 3. Set up the Python environment and install ML dependencies:
-  ```bash
-  pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 4. Run the application:
-  ```bash
+   ```bash
   npm start
 
-5. Access the app at http://localhost:3000.
+6. Access the app at http://localhost:3000.
 
-How It Works
+## How It Works
 Data Collection & Preprocessing: The model is trained using a dataset of ASL gestures. Each gesture is labeled and converted into a format that can be processed by the CNN.
 
-Model Training: A CNN is employed to learn gesture patterns and improve recognition accuracy through continuous training and testing.
+## Model Training: A CNN is employed to learn gesture patterns and improve recognition accuracy through continuous training and testing.
 
-Real-Time Prediction: The trained model is integrated into the application to recognize and translate gestures in real time.
+## Real-Time Prediction: The trained model is integrated into the application to recognize and translate gestures in real time.
 
-Speech Output: Once a gesture is recognized, the system converts the text output into spoken words using text-to-speech (TTS) technology.
+## Speech Output: Once a gesture is recognized, the system converts the text output into spoken words using text-to-speech (TTS) technology.
 
-Usage
+## Usage
 Launch the application.
 Position your hand in view of the camera.
 Perform the ASL gesture.
